@@ -28,5 +28,30 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         <my-view2></my-view2>
       </template>
     </test-fixture>
+    <script>
+      suite('my-view2 tests', function() {
+        var home;
+
+        setup(function() {
+          home = fixture('basic');
+        });
+
+        test('Text should be "This is Lawson Hall"', function() {
+          var lawsonCard = Polymer.dom(home.root).querySelector('.bathroom-features');
+          assert.equal(lawsonCard.textContent, 'Baby Changing Station');
+        })
+
+        test('Check for first comment', function() {
+          var firstComment = Polymer.dom(home.root).querySelector('.firstComment');
+          assert.equal(firstComment.textContent, 'Comments go here');
+        })
+
+        test('Checking for First floor', function() {
+          var firstFloor = Polymer.dom(home.root).querySelector('.firstFloor');
+          assert.equal(firstFloor.textContent, '1st Floor');
+        })
+
+      });
+    </script>
   </body>
 </html>
