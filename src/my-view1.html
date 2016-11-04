@@ -1,53 +1,46 @@
 <!--
-@license
-Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
--->
-
+   @license
+   Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+   This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+   The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+   The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+   Code distributed by Google as part of the polymer project is also
+   subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+   -->
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="shared-styles.html">
 <link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="../bower_components/iron-list/iron-list.html">
 <link rel="import" href="../bower_components/paper-card/paper-card.html">
 <link rel="import" href="../bower_components/paper-button/paper-button.html">
-
 <dom-module id="my-view1">
-  <template>
-    <style include="shared-styles">
-      :host {
-        display: block;
-
-        padding: 10px;
-      }
-    </style>
-
+   <template>
+      <style include="shared-styles">
+         :host {
+         display: block;
+         padding: 10px;
+         }
+      </style>
       <template is="dom-bind">
-  <iron-ajax url="buildings.json" last-response="{{data}}" auto></iron-ajax>
-  <iron-list items="[[data]]" as="item">
-    <template>
-
-      <div>
-        <paper-card heading="[[item.name]]" image="[[item.image]]" alt="Lawson Hall" class="white">
-  <div class="card-content-lawson">[[item.content]]</div>
-  <div class="card-actions">
-    <paper-button>Share</paper-button>
-    <paper-button class="explore">Explore!</paper-button>
-  </div>
-</paper-card>
-      </div>
-
-    </template>
-  </iron-list>
-</template>
-  </template>
-
-  <script>
-    Polymer({
-      is: 'my-view1'
-    });
-  </script>
+         <iron-ajax url="buildings.json" last-response="{{data}}" auto></iron-ajax>
+         <iron-list items="[[data]]" as="item">
+            <template>
+               <div>
+                  <paper-card heading="[[item.name]]" image="[[item.image]]" alt="Lawson Hall" class="white">
+                     <div class="card-content-lawson">[[item.content]]</div>
+                     <div class="card-actions">
+                        <paper-button>Share</paper-button>
+                        <paper-button class="explore">Explore!</paper-button>
+                     </div>
+                  </paper-card>
+               </div>
+            </template>
+         </iron-list>
+      </template>
+   </template>
+   <script>
+      Polymer({
+        is: 'my-view1'
+      });
+   </script>
 </dom-module>
