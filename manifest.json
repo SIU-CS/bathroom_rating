@@ -1,10 +1,10 @@
 {
-  "name": "My App",
-  "short_name": "My App",
-  "start_url": "/?homescreen=1",
-  "display": "standalone",
+  "name": "SIU Bathroom Rating",
+  "short_name": "SIU Bathroom Rating",
   "theme_color": "#660000",
   "background_color": "#660000",
+  "display": "standalone",
+  "start_url": "/?homescreen=1",
   "icons": [
     {
       "src": "images/manifest/icon-192x192.png",
