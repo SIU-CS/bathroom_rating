@@ -1,4 +1,4 @@
 [
-  {"header": "Boys Bathroom","floor": "1st Floor","special": ["<li>Baby Changing Station</li>","Blow Dryer"]},
-  {"header": "Girls Bathroom","floor": "1st Floor","special": ["<li>Baby Changing Station</li>","Blow Dryer"]}
+  {"header": "Boys Bathroom","floor": "1st Floor","special": ["Baby Changing Station","Blow Dryer"]},
+  {"header": "Girls Bathroom","floor": "1st Floor","special": ["Baby Changing Station","Blow Dryer"]}
 ]
