@@ -38,45 +38,50 @@
          iron-icon.star:last-of-type { color: var(--paper-grey-500); }
       </style>
       <div class="card">
-      <h1>Lawson Hall</h1>
-      <template is="dom-bind">
-         <iron-ajax url="lawson_bathrooms.json" last-response="{{data}}" auto></iron-ajax>
-         <iron-list items="[[data]]" as="item">
-            <template>
-               <paper-card>
-                  <div class="card-content">
-                     <div class="bathroom-header">
-                        [[item.header]]
-                        <div class="bathroom-location bathroom-light">
-                           <iron-icon icon="communication:location-on"></iron-icon>
-                           <span class="firstFloor">[[item.floor]]</span>
+         <h1>Lawson Hall</h1>
+         <template is="dom-bind">
+            <iron-ajax url="lawson_bathrooms.json" last-response="{{data}}" auto></iron-ajax>
+            <iron-list items="[[data]]" as="item">
+               <template>
+                  <paper-card>
+                     <div class="card-content">
+                        <div class="bathroom-header">
+                           [[item.header]]
+                           <div class="bathroom-location bathroom-light">
+                              <iron-icon icon="communication:location-on"></iron-icon>
+                              <span class="firstFloor">[[item.floor]]</span>
+                           </div>
                         </div>
+                        <div class="bathroom-rating">
+                           <iron-icon class="star" icon="star"></iron-icon>
+                           <iron-icon class="star" icon="star"></iron-icon>
+                           <iron-icon class="star" icon="star"></iron-icon>
+                           <iron-icon class="star" icon="star"></iron-icon>
+                           <iron-icon class="star" icon="star"></iron-icon>
+                        </div>
+                        <p>Special features:</p>
+                        <p class="bathroom-light">
+                           <ul>[[item.special]]</ul>
+                        </p>
+                        <p>Number of Stalls:</p>
+                        <p class="bathroom-light">
+                           <ul>[[item.stalls]]</ul>
+                        </p>
                      </div>
-                     <div class="bathroom-rating">
-                        <iron-icon class="star" icon="star"></iron-icon>
-                        <iron-icon class="star" icon="star"></iron-icon>
-                        <iron-icon class="star" icon="star"></iron-icon>
-                        <iron-icon class="star" icon="star"></iron-icon>
-                        <iron-icon class="star" icon="star"></iron-icon>
+                     <div class="card-actions">
+                        <p>Comments:</p>
+                        <div class="horizontal justified">
+                           <ul>
+                              <li class="firstComment">Comments go here</li>
+                           </ul>
+                        </div>
+                        <paper-button class="bathroom-comment-add">Add Comment</paper-button>
                      </div>
-                     <p>Special features:</p>
-                     <p class="bathroom-light">
-                     <ul>[[item.special]]</ul>
-                     </p>
-                  </div>
-                  <div class="card-actions">
-                     <p>Comments:</p>
-                     <div class="horizontal justified">
-                        <ul>
-                           <li class="firstComment">Comments go here</li>
-                        </ul>
-                     </div>
-                     <paper-button class="bathroom-comment-add">Add Comment</paper-button>
-                  </div>
-               </paper-card>
-            </template>
-         </iron-list>
-      </template>
+                  </paper-card>
+               </template>
+            </iron-list>
+         </template>
+      </div>
    </template>
    <script>
       Polymer({
