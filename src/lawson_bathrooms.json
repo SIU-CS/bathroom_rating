@@ -1,4 +1,6 @@
 [
   {"header": "Boys Bathroom","floor": "1st Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]},
   {"header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]}
+  {"header": "Boys Bathroom","floor": "2nd Floor","stalls": "2","special": ["Paper Towel Dispenser","Blow Dryer"]},
+  {"header": "Girls Bathroom","floor": "2nd Floor","stalls": "4","special": ["Paper Towel Dispenser","Blow Dryer"]}
 ]
