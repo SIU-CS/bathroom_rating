@@ -20,6 +20,12 @@
          display: block;
          padding: 10px;
          }
+          .bathroom{
+          padding: 10px;
+          height: 250px;
+          width: 300px;
+         }
+
       </style>
       <style is="custom-style">
          .bathroom-header { @apply(--paper-font-headline); }
@@ -37,12 +43,12 @@
          }
          iron-icon.star:last-of-type { color: var(--paper-grey-500); }
       </style>
-      <div class="card">
          <h1>Lawson Hall</h1>
          <template is="dom-bind">
             <iron-ajax url="lawson_bathrooms.json" last-response="{{data}}" auto></iron-ajax>
-            <iron-list items="[[data]]" as="item">
+            <iron-list items="[[data]]" as="item" scroll-target="document" grid>
                <template>
+                 <div class="building">
                   <paper-card>
                      <div class="card-content">
                         <div class="bathroom-header">
@@ -78,10 +84,10 @@
                         <paper-button class="bathroom-comment-add">Add Comment</paper-button>
                      </div>
                   </paper-card>
+                  </div>
                </template>
             </iron-list>
          </template>
-      </div>
    </template>
    <script>
       Polymer({
