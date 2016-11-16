@@ -1,5 +1,13 @@
 [
   {"name": "Lawson Hall","image": "https://communitywalk.s3.amazonaws.com/assets/photos/33/81/385922_s.jpg","content": "This is Lawson Hall"},
   {"name": "Faner Hall","image": "https://s-media-cache-ak0.pinimg.com/736x/0d/24/35/0d2435fa0dc7920a59b9fcfb144cb975.jpg","content": "This is Faner Hall"},
-  {"name": "Morris Library","image": "http://az616578.vo.msecnd.net/files/2015/09/11/6357757688947454901491659483_Morris%20Library_0.jpg","content": "This is Morris Library"}
+  {"name": "Morris Library","image": "http://az616578.vo.msecnd.net/files/2015/09/11/6357757688947454901491659483_Morris%20Library_0.jpg","content": "This is Morris Library"},
+  {"name": "Engineering","image": "https://s-media-cache-ak0.pinimg.com/originals/d1/d4/76/d1d476268850dc855ace582dae6019ff.jpg","content": "This is The Engineering Building"},
+  {"name": "Student Services","image": "http://gradschool.siu.edu/_common/images/studentservices-banner.JPG","content": "This is Student Services"},
+  {"name": "Student Center","image": "http://studentcenter.siu.edu/_common/images/headers/StudentCenterFall.jpg","content": "This is The Student Center"},
+  {"name": "Pulliam","image": "http://photocom.zenfolio.com/img/s/v-3/p363890250-3.jpg","content": "This is Pulliam"},
+  {"name": "Shryock","image": "https://pbs.twimg.com/profile_images/3438449457/fd2a5dec292945e3ac2b0a072afb785a.jpeg","content": "This is Shryock Auditorium"},
+  {"name": "Life Science II","image": "http://www.siumed.edu/news/images/buildings/Life%20Science%20II.jpg","content": "This is Life Science II"},
+  {"name": "Agriculture","image": "http://lh5.ggpht.com/tUWWqNRdfVx6HHK79aTMiQJ9TDU6L56jxYSQjmFRD4i3erqhvZ2KUyCSzl43FJ5J8YuZvpDgzkEJTHUdbkQ","content": "This is Agriculture"}
+
 ]
