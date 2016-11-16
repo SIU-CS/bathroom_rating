@@ -1,0 +1,91 @@
+<!--
+   @license
+   Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+   This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+   The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+   The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+   Code distributed by Google as part of the polymer project is also
+   subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+   -->
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="shared-styles.html">
+<link rel="import" href="../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../bower_components/iron-icon/iron-icon.html">
+<dom-module id="my-view2">
+   <template>
+      <style include="shared-styles">
+         :host {
+         display: block;
+         padding: 10px;
+         }
+      </style>
+      <style is="custom-style">
+         .bathroom-header { @apply(--paper-font-headline); }
+         .bathroom-light { color: var(--paper-grey-600); }
+         .bathroom-location {
+         float: right;
+         font-size: 15px;
+         vertical-align: middle;
+         }
+         .bathroom-comment-add { color: var(--google-blue-500); }
+         iron-icon.star {
+         --iron-icon-width: 16px;
+         --iron-icon-height: 16px;
+         color: var(--paper-amber-500);
+         }
+         iron-icon.star:last-of-type { color: var(--paper-grey-500); }
+      </style>
+      <div class="card">
+         <h1>Morris Library</h1>
+         <template is="dom-bind">
+            <iron-ajax url="morris_bathrooms.json" last-response="{{data}}" auto></iron-ajax>
+            <iron-list items="[[data]]" as="item">
+               <template>
+                  <paper-card>
+                     <div class="card-content">
+                        <div class="bathroom-header">
+                           [[item.header]]
+                           <div class="bathroom-location bathroom-light">
+                              <iron-icon icon="communication:location-on"></iron-icon>
+                              <span class="firstFloor">[[item.floor]]</span>
+                           </div>
+                        </div>
+                        <div class="bathroom-rating">
+                           <iron-icon class="star" icon="star"></iron-icon>
+                           <iron-icon class="star" icon="star"></iron-icon>
+                           <iron-icon class="star" icon="star"></iron-icon>
+                           <iron-icon class="star" icon="star"></iron-icon>
+                           <iron-icon class="star" icon="star"></iron-icon>
+                        </div>
+                        <p>Special features:</p>
+                        <p class="bathroom-light">
+                           <ul>[[item.special]]</ul>
+                        </p>
+                        <p>Number of Stalls:</p>
+                        <p class="bathroom-light">
+                           <ul>[[item.stalls]]</ul>
+                        </p>
+                     </div>
+                     <div class="card-actions">
+                        <p>Comments:</p>
+                        <div class="horizontal justified">
+                           <ul>
+                              <li class="firstComment">Comments go here</li>
+                           </ul>
+                        </div>
+                        <paper-button class="bathroom-comment-add">Add Comment</paper-button>
+                     </div>
+                  </paper-card>
+               </template>
+            </iron-list>
+         </template>
+      </div>
+   </template>
+   <script>
+      Polymer({
+        is: 'my-view2'
+      });
+   </script>
+</dom-module>
