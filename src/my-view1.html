@@ -26,13 +26,17 @@
           height: 250px;
           width: 300px;
          }
+         
+         paper-card.white {
+            --paper-card-header-color: #fff;
+         }
       </style>
       <template is="dom-bind">
          <iron-ajax url="buildings.json" last-response="{{data}}" auto></iron-ajax>
          <iron-list items="[[data]]" scroll-target="document" as="item" grid>
             <template>
                <div class="building">
-                  <paper-card class="card-image" heading="[[item.name]]" image="[[item.image]]" alt="Lawson Hall" class="white">
+                  <paper-card heading="[[item.name]]" image="[[item.image]]" alt="Lawson Hall" class="white">
                      <div class="card-content-lawson">[[item.content]]</div>
                      <div class="card-actions">
                         <paper-button>Share</paper-button>
