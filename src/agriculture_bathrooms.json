@@ -1,4 +1,10 @@
 [
-  {"header": "Boys Bathroom","floor": "1st Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]},
-  {"header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]}
+  {"header": "Boys Bathroom","floor": "1st Floor(North)","stalls": "2","special": ["Baby Changing Station"]},
+  {"header": "Girls Bathroom","floor": "1st Floor(North)","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"header": "Boys Bathroom","floor": "1st Floor(South)","stalls": "2","special": ["Blow Dryer"]},
+  {"header": "Girls Bathroom","floor": "1st Floor(South)","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"header": "Boys Bathroom","floor": "1st Floor(East)","stalls": "2","special": ["NOTHING SPECIAL"]},
+  {"header": "Girls Bathroom","floor": "1st Floor(East)","stalls": "4","special": ["Baby Changing Station","Paper Towels"]},
+  {"header": "Boys Bathroom","floor": "2st Floor(East)","stalls": "2","special": ["Baby Changing Station"]},
+  {"header": "Girls Bathroom","floor": "2st Floor(East)","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]}
 ]
