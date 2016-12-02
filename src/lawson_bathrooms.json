@@ -1,4 +1,6 @@
 [
   {"header": "Boys Bathroom","floor": "1st Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]},
-  {"header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]}
+  {"header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"header": "Boys Bathroom","floor": "2st Floor","stalls": "2","special": ["No Handycap Stall","Blow Dryer"]},
+  {"header": "Girls Bathroom","floor": "2st Floor","stalls": "4","special": ["Extra Handycap Stall","Blow Dryer"]}
 ]
