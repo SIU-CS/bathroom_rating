@@ -1,26 +1,26 @@
 [
   {"header": "Boys Bathroom","floor": "1st Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]},
-  {"header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]}
-  {"header": "Boys Bathroom","floor": "1st Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]}
-  {"header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]}
-  {"header": "Boys Bathroom","floor": "1st Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]}
-  {"header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]}
-  {"header": "Boys Bathroom","floor": "2nd Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]}
-  {"header": "Girls Bathroom","floor": "2nd Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]}
-  {"header": "Boys Bathroom","floor": "2nd Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]}
-  {"header": "Girls Bathroom","floor": "2nd Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]}
-  {"header": "Boys Bathroom","floor": "2nd Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]}
-  {"header": "Girls Bathroom","floor": "2nd Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]}
-  {"header": "Boys Bathroom","floor": "3rd Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]}
-  {"header": "Girls Bathroom","floor": "3rd Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]}
-  {"header": "Boys Bathroom","floor": "3rd Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]}
-  {"header": "Girls Bathroom","floor": "3rd Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]}
-  {"header": "Boys Bathroom","floor": "3rd Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]}
-  {"header": "Girls Bathroom","floor": "3rd Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]}
-  {"header": "Boys Bathroom","floor": "4th Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]}
-  {"header": "Girls Bathroom","floor": "4th Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]}
-  {"header": "Boys Bathroom","floor": "4th Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]}
-  {"header": "Girls Bathroom","floor": "4th Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]}
-  {"header": "Boys Bathroom","floor": "4th Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]}
+  {"header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"header": "Boys Bathroom","floor": "1st Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]},
+  {"header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]},
+  {"header": "Boys Bathroom","floor": "1st Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]},
+  {"header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]},
+  {"header": "Boys Bathroom","floor": "2nd Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]},
+  {"header": "Girls Bathroom","floor": "2nd Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"header": "Boys Bathroom","floor": "2nd Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]},
+  {"header": "Girls Bathroom","floor": "2nd Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]},
+  {"header": "Boys Bathroom","floor": "2nd Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]},
+  {"header": "Girls Bathroom","floor": "2nd Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]},
+  {"header": "Boys Bathroom","floor": "3rd Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]},
+  {"header": "Girls Bathroom","floor": "3rd Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"header": "Boys Bathroom","floor": "3rd Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]},
+  {"header": "Girls Bathroom","floor": "3rd Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]},
+  {"header": "Boys Bathroom","floor": "3rd Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]},
+  {"header": "Girls Bathroom","floor": "3rd Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]},
+  {"header": "Boys Bathroom","floor": "4th Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]},
+  {"header": "Girls Bathroom","floor": "4th Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"header": "Boys Bathroom","floor": "4th Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]},
+  {"header": "Girls Bathroom","floor": "4th Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]},
+  {"header": "Boys Bathroom","floor": "4th Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]},
   {"header": "Girls Bathroom","floor": "4th Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]}
 ]
