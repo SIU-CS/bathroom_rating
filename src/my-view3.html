@@ -10,7 +10,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="shared-styles.html">
-
+<link rel="import" href="../bower_components/app-route/app-route.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
 <dom-module id="my-view3">
   <template>
     <style include="shared-styles">
@@ -20,10 +21,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         padding: 10px;
       }
     </style>
-
+    <app-route 
+      route="[[route]]"
+      pattern="/:number"
+      data="{{routeData}}"></app-route>
     <div class="card">
       <div class="circle">3</div>
-      <h1>View Three</h1>
+      <h1>[[routeData.number]]</h1>
       <p>Modus commodo minimum eum te, vero utinam assueverit per eu.</p>
       <p>Ea duis bonorum nec, falli paulo aliquid ei eum.Has at minim mucius aliquam, est id tempor laoreet.Pro saepe pertinax ei, ad pri animal labores suscipiantur.</p>
     </div>
@@ -31,7 +35,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
   <script>
     Polymer({
-      is: 'my-view3'
+      is: 'my-view3',
+      properties: {
+        route: Object
+      }
     });
   </script>
 </dom-module>
