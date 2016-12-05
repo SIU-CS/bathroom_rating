@@ -39,7 +39,7 @@
          iron-icon.star:last-of-type { color: var(--paper-grey-500); }
       </style>
 
-         <h1>[[selectedBuilding]]</h1>
+         <h1>[[route]]</h1>
             <iron-ajax id="ajaxId" url="[[selectedBuilding]]" handle-as="json" last-response="{{data}}" auto></iron-ajax>
             <iron-list items="[[data]]" as="item">
                <template>
