@@ -36,17 +36,17 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           home = fixture('basic');
         });
 
-        test('Text should be "This is Lawson Hall"', function() {
+        test('This test checks for testing allowence', function() {
           var lawsonCard = Polymer.dom(home.root).querySelector('.test1');
           assert.equal(lawsonCard.textContent, 'Testing');
         })
 
-        test('Check for first comment', function() {
+        test('Checks if there are items displaying', function() {
           var firstComment = Polymer.dom(home.root).querySelector('.test2');
           assert.equal(firstComment.textContent, 'Hello');
         })
 
-        test('Checking for First floor', function() {
+        test('Will check for the content of second frame', function() {
           var firstFloor = Polymer.dom(home.root).querySelector('.test3');
           assert.equal(firstFloor.textContent, 'Hello Again');
         })
