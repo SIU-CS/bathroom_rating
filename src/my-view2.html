@@ -30,6 +30,11 @@
          font-size: 15px;
          vertical-align: middle;
          }
+         .building{
+           padding: 10px;
+           height: 250px;
+           width: 300px;
+         }
          .bathroom-comment-add { color: var(--google-blue-500); }
          iron-icon.star {
          --iron-icon-width: 16px;
@@ -39,10 +44,11 @@
          iron-icon.star:last-of-type { color: var(--paper-grey-500); }
       </style>
 
-         <h1>[[selectedBuilding]]</h1>
+         <h1>[[route]]</h1>
             <iron-ajax id="ajaxId" url="[[selectedBuilding]]" handle-as="json" last-response="{{data}}" auto></iron-ajax>
-            <iron-list items="[[data]]" as="item">
+            <iron-list items="[[data]]" scroll-target="document" as="item" grid>
                <template>
+                 <div class="building">
                   <paper-card>
                      <div class="card-content">
                         <div class="bathroom-header">
@@ -78,6 +84,7 @@
                         <paper-button class="bathroom-comment-add">Add Comment</paper-button>
                      </div>
                   </paper-card>
+                 </div>
                </template>
             </iron-list>
    </template>

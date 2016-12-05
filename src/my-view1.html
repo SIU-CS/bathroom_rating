@@ -28,7 +28,7 @@
          }
          
          paper-card.white {
-            --paper-card-header-color: #fff;
+            --paper-card-header-color: white;
          }
       </style>
       <template is="dom-bind">
@@ -36,11 +36,10 @@
          <iron-list items="[[data]]" scroll-target="document" as="item" grid>
             <template>
                <div class="building">
-                  <paper-card heading="[[item.name]]" image="[[item.image]]" alt="Lawson Hall" class="white">
-                     <div class="card-content-lawson">[[item.content]]</div>
+                  <paper-card heading="" image="[[item.image]]" alt="Lawson Hall" class="white">
+                     
                      <div class="card-actions">
-                        <paper-button>Share</paper-button>
-                        <paper-button class="explore">Explore!</paper-button>
+                        <paper-button><a href="[[item.link]]">[[item.content]]</a></paper-button>
                      </div>
                   </paper-card>
                </div>
