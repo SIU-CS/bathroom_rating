@@ -1,0 +1,14 @@
+[
+  {"key": "scenter.boy1.basement","header": "Boys Bathroom","floor": "Basement","stalls": "3","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "scenter.girl1.basement","header": "Girls Bathroom","floor": "Basement","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "scenter.boy2.basement","header": "Boys Bathroom","floor": "Basement","stalls": "3","special": ["Blow Dryer"]},
+  {"key": "scenter.girl2.basement","header": "Girls Bathroom","floor": "Basement","stalls": "4","special": ["Blow Dryer"]},
+  {"key": "scenter.boy1.floor1","header": "Boys Bathroom","floor": "1st Floor","stalls": "3","special": ["Baby Changing Station","Blow Dryer","Stall with Curtain"]},
+  {"key": "scenter.girl1.floor1","header": "Girls Bathroom","floor": "1st Floor","stalls": "5","special": ["Baby Changing Station","Blow Dryer","Stall with Curtain"]},
+  {"key": "scenter.boy2.floor1","header": "Boys Bathroom","floor": "1st Floor","stalls": "3","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "scenter.girl2.floor1","header": "Girls Bathroom","floor": "1st Floor","stalls": "5","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "scenter.boy1.floor2","header": "Boys Bathroom","floor": "2nd Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer","Stall with Curtain"]},
+  {"key": "scenter.girl1.floor2","header": "Girls Bathroom","floor": "2nd Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer","Stall with Curtain"]},
+  {"key": "scenter.boy2.floor2","header": "Boys Bathroom","floor": "2nd Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "scenter.girl2.floor2","header": "Girls Bathroom","floor": "2nd Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+]

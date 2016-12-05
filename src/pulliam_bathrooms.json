@@ -1,0 +1,14 @@
+[
+  {"key": "pulliam.boy1.floor1","header": "Boys Bathroom","floor": "1st Floor","stalls": "2","special": ["Blow Dryer"]},
+  {"key": "pulliam.girl1.floor1","header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Baby Changing Station"]},
+  {"key": "pulliam.boy2.floor1","header": "Boys Bathroom","floor": "1st Floor","stalls": "2","special": ["Blow Dryer"]},
+  {"key": "pulliam.girl2.floor1","header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Baby Changing Station"]},
+  {"key": "pulliam.boy1.floor2","header": "Boys Bathroom","floor": "2nd Floor","stalls": "2","special": ["Baby Changing Station"]},
+  {"key": "pulliam.girl1.floor2","header": "Girls Bathroom","floor": "2nd Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "pulliam.boy2.floor2","header": "Boys Bathroom","floor": "2nd Floor","stalls": "2","special": ["Baby Changing Station"]},
+  {"key": "pulliam.girl2.floor2","header": "Girls Bathroom","floor": "2nd Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "pulliam.boy1.floor3","header": "Boys Bathroom","floor": "3rd Floor","stalls": "2","special": ["Paper Towels"]},
+  {"key": "pulliam.girl2.floor3","header": "Girls Bathroom","floor": "3rd Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "pulliam.boy2.floor3","header": "Boys Bathroom","floor": "3rd Floor","stalls": "2","special": ["Paper Towels"]},
+  {"key": "pulliam.girl2.floor3","header": "Girls Bathroom","floor": "3rd Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]}
+]

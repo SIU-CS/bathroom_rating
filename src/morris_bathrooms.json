@@ -1,0 +1,14 @@
+[
+  {"key": "morris.boy1.floor1","header": "Boys Bathroom","floor": "1st Floor","stalls": "3","special": ["A fun smell","Blow Dryer"]},
+  {"key": "morris.girl1.floor1","header": "Girls Bathroom","floor": "1st Floor","stalls": "6","special": ["Lady Vending Machine","Hair Dryer"]},
+  {"key": "morris.boy1.floor2","header": "Boys Bathroom","floor": "2nd Floor","stalls": "3","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "morris.girl1.floor2","header": "Girls Bathroom","floor": "2nd Floor","stalls": "6","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "morris.boy1.floor3","header": "Boys Bathroom","floor": "3rd Floor","stalls": "3","special": ["Changing Baby Station","Paper Towels"]},
+  {"key": "morris.girl1.floor3","header": "Girls Bathroom","floor": "3rd Floor","stalls": "6","special": ["Baby Changing Station","Paper Towels"]},
+  {"key": "morris.boy1.floor4","header": "Boys Bathroom","floor": "4th Floor","stalls": "3","special": ["Changing Baby Station","Paper Towels"]},
+  {"key": "morris.girl1.floor4","header": "Girls Bathroom","floor": "4th Floor","stalls": "6","special": ["Baby Changing Station","Paper Towels"]},
+  {"key": "morris.boy1.floor5","header": "Boys Bathroom","floor": "5th Floor","stalls": "3","special": ["Very clean","Paper Towels"]},
+  {"key": "morris.girl1.floor5","header": "Girls Bathroom","floor": "5th Floor","stalls": "6","special": ["Baby Changing Station","Paper Towels"]},
+  {"key": "morris.boy1.basement","header": "Boys Bathroom","floor": "Basement Floor","stalls": "3","special": ["Haunted","Paper Towels"]},
+  {"key": "morris.girl1.basement","header": "Girls Bathroom","floor": "Basement Floor","stalls": "6","special": ["Haunted","Paper Towels"]}
+]

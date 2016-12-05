@@ -1,0 +1,10 @@
+[
+  {"key": "ls2.boy1.floor1","header": "Boys Bathroom","floor": "1st Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "ls2.girl1.floor1","header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "ls2.boy1.floor2","header": "Boys Bathroom","floor": "2nd Floor","stalls": "2","special": ["Ivy Growing on Walls","Paper Towels"]},
+  {"key": "ls2.girl1.floor2","header": "Girls Bathroom","floor": "2nd Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "ls2.boy1.floor3","header": "Boys Bathroom","floor": "3rd Floor","stalls": "2","special": ["Slide to 2nd Floor"]},
+  {"key": "ls2.girl1.floor4","header": "Girls Bathroom","floor": "3rd Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "ls2.boy1.floor4","header": "Boys Bathroom","floor": "4th Floor","stalls": "2","special": ["Dance Club","Open Bar"]},
+  {"key": "ls2.girl1.floor4","header": "Girls Bathroom","floor": "4th Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]}
+]

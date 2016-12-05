@@ -1,0 +1,10 @@
+[
+  {"key": "agriculture.boy1.floor1","header": "Boys Bathroom","floor": "1st Floor(North)","stalls": "2","special": ["Baby Changing Station"]},
+  {"key": "agriculture.girl1.floor1","header": "Girls Bathroom","floor": "1st Floor(North)","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "agriculture.boy2.floor1","header": "Boys Bathroom","floor": "1st Floor(South)","stalls": "2","special": ["Blow Dryer"]},
+  {"key": "agriculture.girl2.floor1","header": "Girls Bathroom","floor": "1st Floor(South)","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "agriculture.boy3.floor1","header": "Boys Bathroom","floor": "1st Floor(East)","stalls": "2","special": ["NOTHING SPECIAL"]},
+  {"key": "agriculture.girl3.floor1","header": "Girls Bathroom","floor": "1st Floor(East)","stalls": "4","special": ["Baby Changing Station","Paper Towels"]},
+  {"key": "agriculture.boy1.floor2","header": "Boys Bathroom","floor": "2st Floor(East)","stalls": "2","special": ["Baby Changing Station"]},
+  {"key": "agriculture.girl1.floor2","header": "Girls Bathroom","floor": "2st Floor(East)","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]}
+]
