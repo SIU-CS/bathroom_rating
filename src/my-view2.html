@@ -87,6 +87,9 @@
                  </div>
                </template>
             </iron-list>
+            <h1 class="test1">Testing</h1>
+            <h2 class="test2">Hello</h2>
+            <h3 class="test3">Hello Again</h3>
    </template>
    <script>
       Polymer({
@@ -98,9 +101,7 @@
             computed: '_computeURL(route)',
           }
       },
-      ready: function(){
-        this.$.ajaxId.generateRequest();
-      },
+      
         _computeURL: function(route){
           return this.resolveUrl(route + '_bathrooms.json');
         }
