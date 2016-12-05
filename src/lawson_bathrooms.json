@@ -1,6 +1,6 @@
 [
-  {"header": "Boys Bathroom","floor": "1st Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]},
-  {"header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
-  {"header": "Boys Bathroom","floor": "2st Floor","stalls": "2","special": ["No Handycap Stall","Blow Dryer"]},
-  {"header": "Girls Bathroom","floor": "2st Floor","stalls": "4","special": ["Extra Handycap Stall","Blow Dryer"]}
+  {"key": "lawson.boy1.floor1","header": "Boys Bathroom","floor": "1st Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "lawson.girl1.floor1","header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "lawson.boy1.floor2","header": "Boys Bathroom","floor": "2st Floor","stalls": "2","special": ["No Handycap Stall","Blow Dryer"]},
+  {"key": "lawson.girl1.floor2","header": "Girls Bathroom","floor": "2st Floor","stalls": "4","special": ["Extra Handycap Stall","Blow Dryer"]}
 ]
