@@ -1,0 +1,57 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>my-view1</title>
+
+    <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../bower_components/web-component-tester/browser.js"></script>
+
+    <!-- Import the element to test -->
+    <link rel="import" href="../src/my-view1.html">
+  </head>
+  <body>
+    <test-fixture id="basic">
+      <template>
+        <my-view1></my-view1>
+      </template>
+    </test-fixture>
+    <script>
+      suite('my-view1 tests', function() {
+        var home;
+
+        setup(function() {
+          home = fixture('basic');
+        });
+
+        test('Text should be "This is Lawson Hall"', function() {
+          var lawsonCard = Polymer.dom(home.root).querySelector('.test1');
+          assert.equal(lawsonCard.textContent, 'Testing');
+        })
+
+        test('Check for first comment', function() {
+          var firstComment = Polymer.dom(home.root).querySelector('.test2');
+          assert.equal(firstComment.textContent, 'Hello');
+        })
+
+        test('Checking for First floor', function() {
+          var firstFloor = Polymer.dom(home.root).querySelector('.test3');
+          assert.equal(firstFloor.textContent, 'Hello Again');
+        })
+
+      });
+    </script>
+  </body>
+</html>
