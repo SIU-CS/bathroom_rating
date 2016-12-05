@@ -40,8 +40,7 @@
       </style>
 
          <h1>[[selectedBuilding]]</h1>
-         <template is="dom-bind">
-            <iron-ajax url="[[selectedBuilding]]" handle-as="json" last-response="{{data}}" auto></iron-ajax>
+            <iron-ajax id="ajaxId" url="[[selectedBuilding]]" handle-as="json" last-response="{{data}}" auto></iron-ajax>
             <iron-list items="[[data]]" as="item">
                <template>
                   <paper-card>
@@ -81,7 +80,6 @@
                   </paper-card>
                </template>
             </iron-list>
-         </template>
    </template>
    <script>
       Polymer({
@@ -93,8 +91,11 @@
             computed: '_computeURL(route)',
           }
       },
+      ready: function(){
+        this.$.ajaxId.generateRequest();
+      },
         _computeURL: function(route){
-          return route + '_bathrooms.json';
+          return this.resolveUrl(route + '_bathrooms.json');
         }
       });
    </script>
