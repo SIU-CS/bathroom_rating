@@ -1,10 +1,10 @@
 [
-  {"header": "Boys Bathroom","floor": "1st Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]},
-  {"header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
-  {"header": "Boys Bathroom","floor": "1st Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]},
-  {"header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]},
-  {"header": "Boys Bathroom","floor": "2nd Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]},
-  {"header": "Girls Bathroom","floor": "2nd Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
-  {"header": "Boys Bathroom","floor": "2nd Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]},
-  {"header": "Girls Bathroom","floor": "2nd Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]}
+  {"key": "shryock.boy1.floor1","header": "Boys Bathroom","floor": "1st Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "shryock.girl1.floor1","header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "shryock.boy2.floor1","header": "Boys Bathroom","floor": "1st Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]},
+  {"key": "shryock.girl2.floor1","header": "Girls Bathroom","floor": "1st Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]},
+  {"key": "shryock.boy1.floor2","header": "Boys Bathroom","floor": "2nd Floor","stalls": "2","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "shryock.girl1.floor2","header": "Girls Bathroom","floor": "2nd Floor","stalls": "4","special": ["Baby Changing Station","Blow Dryer"]},
+  {"key": "shryock.boy2.floor2","header": "Boys Bathroom","floor": "2nd Floor","stalls": "2","special": ["Blow Dryer","Paper Towel Dispenser"]},
+  {"key": "shryock.girl2.floor2","header": "Girls Bathroom","floor": "2nd Floor","stalls": "4","special": ["Blow Dryer","Paper Towel Dispenser"]}
 ]
