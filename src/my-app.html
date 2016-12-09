@@ -20,6 +20,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/iron-pages/iron-pages.html">
 <link rel="import" href="../bower_components/iron-selector/iron-selector.html">
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
+<link rel="import" href="../bower_components/polymerfire/firebase-app.html">
+<link rel="import" href="../bower_components/polymerfire/firebase-auth.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
 <link rel="import" href="my-icons.html">
 
 <dom-module id="my-app">
@@ -63,6 +66,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       }
     </style>
 
+      <firebase-app 
+        auth-domain="bathroom-rating.firebaseapp.com"
+        database-url="https://bathroom-rating.firebaseio.com"
+        api-key="AIzaSyBu9I8_4QCW4QO25bVF8SiemGRYvrbtlXA">
+    </firebase-app>
+    <firebase-auth id="auth" user="{{user}}" provider="github" online={{online}}>
+    </firebase-auth>
+
     <app-location route="{{route}}"></app-location>
     <app-route
         route="{{route}}"
@@ -91,6 +102,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <app-toolbar>
             <paper-icon-button icon="menu" drawer-toggle></paper-icon-button>
             <div main-title>SIU Bathroom Rating</div>
+            <paper-button hidden$=[[user]] on-tap="login">Login</iron-icon></paper-button>
+            <paper-button hidden$=[[!user]] on-tap="logout">Logout</iron-icon></paper-button>
           </app-toolbar>
         </app-header>
 
@@ -124,6 +137,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       observers: [
         '_routePageChanged(routeData.page)'
       ],
+      login: function(){
+        return this.$.auth.signInWithPopup();
+      },
+      logout: function(){
+        return this.$.auth.signOut();
+      },
 
       _routePageChanged: function(page) {
         this.page = page || 'view1';
