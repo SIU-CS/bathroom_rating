@@ -13,6 +13,7 @@
 <link rel="import" href="../bower_components/iron-list/iron-list.html">
 <link rel="import" href="../bower_components/paper-card/paper-card.html">
 <link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
 <dom-module id="my-view1">
    <template>
       <style include="shared-styles">
@@ -32,8 +33,13 @@
          }
       </style>
       <template is="dom-bind">
-         <iron-ajax url="buildings.json" last-response="{{data}}" auto></iron-ajax>
-         <iron-list items="[[data]]" scroll-target="document" as="item" grid>
+         <iron-ajax url="buildings.json" last-response="{{liveData}}" auto></iron-ajax>
+         <app-indexeddb-mirror
+          key="item"
+          data="{{liveData}}"
+          persisted-data="{{persistedData}}">
+        </app-indexeddb-mirror>
+         <iron-list items="[[persistedData]]" scroll-target="document" as="item" grid>
             <template>
                <div class="building">
                   <paper-card heading="" image="[[item.image]]" alt="Lawson Hall" class="white">

@@ -14,6 +14,8 @@
 <link rel="import" href="../bower_components/iron-icons/iron-icons.html">
 <link rel="import" href="../bower_components/iron-icon/iron-icon.html">
 <link rel="import" href="../bower_components/app-route/app-route.html">
+<link rel="import" href="../bower_components/app-storage/app-indexeddb-mirror/app-indexeddb-mirror.html">
+
 <dom-module id="my-view2">
    <template>
       <style include="shared-styles">
@@ -45,8 +47,13 @@
       </style>
 
          <h1>[[route]]</h1>
-            <iron-ajax id="ajaxId" url="[[selectedBuilding]]" handle-as="json" last-response="{{data}}" auto></iron-ajax>
-            <iron-list items="[[data]]" scroll-target="document" as="item" grid>
+            <iron-ajax id="ajaxId" url="[[selectedBuilding]]" handle-as="json" last-response="{{liveData}}" auto></iron-ajax>
+            <app-indexeddb-mirror
+              key="item"
+              data="{{liveData}}"
+              persisted-data="{{persistedData}}">
+            </app-indexeddb-mirror>
+            <iron-list items="[[persistedData]]" scroll-target="document" as="item" grid>
                <template>
                  <div class="building">
                   <paper-card>
